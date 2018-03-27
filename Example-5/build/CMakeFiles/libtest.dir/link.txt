@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++    -rdynamic CMakeFiles/libtest.dir/libtest.cpp.o  -o libtest  -L/home/berg/Documentos/Github/CMake/Example-3/build -Wl,-rpath,/home/berg/Documentos/Github/CMake/Example-3/build -ltestStudent 

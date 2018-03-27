@@ -1,0 +1,3 @@
+/home/berg/Documentos/Github/CMake/Example-2/build/CMakeFiles/rebuild_cache.dir
+/home/berg/Documentos/Github/CMake/Example-2/build/CMakeFiles/testStudent.dir
+/home/berg/Documentos/Github/CMake/Example-2/build/CMakeFiles/edit_cache.dir

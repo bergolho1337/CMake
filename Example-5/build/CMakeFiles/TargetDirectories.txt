@@ -1,0 +1,3 @@
+/home/berg/Documentos/Github/CMake/Example-5/build/CMakeFiles/rebuild_cache.dir
+/home/berg/Documentos/Github/CMake/Example-5/build/CMakeFiles/libtest.dir
+/home/berg/Documentos/Github/CMake/Example-5/build/CMakeFiles/edit_cache.dir

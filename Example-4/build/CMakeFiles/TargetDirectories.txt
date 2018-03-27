@@ -1,0 +1,7 @@
+/home/berg/Documentos/Github/CMake/Example-4/build/CMakeFiles/install/strip.dir
+/home/berg/Documentos/Github/CMake/Example-4/build/CMakeFiles/edit_cache.dir
+/home/berg/Documentos/Github/CMake/Example-4/build/CMakeFiles/testStudent.dir
+/home/berg/Documentos/Github/CMake/Example-4/build/CMakeFiles/rebuild_cache.dir
+/home/berg/Documentos/Github/CMake/Example-4/build/CMakeFiles/list_install_components.dir
+/home/berg/Documentos/Github/CMake/Example-4/build/CMakeFiles/install/local.dir
+/home/berg/Documentos/Github/CMake/Example-4/build/CMakeFiles/install.dir
