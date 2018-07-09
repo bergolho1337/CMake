@@ -1,0 +1,3 @@
+/home/berg/Documentos/Github/CMake/Switch-Lines-Matrix/build/CMakeFiles/rebuild_cache.dir
+/home/berg/Documentos/Github/CMake/Switch-Lines-Matrix/build/CMakeFiles/matrix_lines.dir
+/home/berg/Documentos/Github/CMake/Switch-Lines-Matrix/build/CMakeFiles/edit_cache.dir

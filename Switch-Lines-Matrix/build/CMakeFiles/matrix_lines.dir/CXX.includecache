@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/berg/Documentos/Github/CMake/Switch-Lines-Matrix/include/timer.h
+sys/time.h
+-
+
+/home/berg/Documentos/Github/CMake/Switch-Lines-Matrix/src/matrix_lines.cxx
+iostream
+-
+iomanip
+-
+algorithm
+-
+cstdlib
+-
+../include/timer.h
+/home/berg/Documentos/Github/CMake/Switch-Lines-Matrix/include/timer.h
+

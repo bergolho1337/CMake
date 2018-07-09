@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/berg/Documentos/Github/CMake/Parse-Command-Line/Getsubopt_Sample/parser.c
+stdlib.h
+-
+assert.h
+-
+stdio.h
+-
+getopt.h
+-
+

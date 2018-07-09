@@ -42,8 +42,11 @@ int main (int argc, char *argv[])
 {
     int opt;
     int option_index = 0;
+
     // Get the command line options based on the configured options:
     opt = getopt_long(argc,argv,opt_string,long_options,&option_index);
+    if (opt == -1)
+        Usage(argv[0]);
 
     while (opt != -1)
     {
