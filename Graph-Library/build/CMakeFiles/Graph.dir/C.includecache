@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lucas/Documentos/Github/CMake/Graph-Library/graph.c
+graph.h
+/home/lucas/Documentos/Github/CMake/Graph-Library/graph.h
+
+/home/lucas/Documentos/Github/CMake/Graph-Library/graph.h
+stdbool.h
+-
+stdint.h
+-
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+time.h
+-
+math.h
+-
+
+/home/lucas/Documentos/Github/CMake/Graph-Library/main.c
+stdio.h
+-
+stdlib.h
+-
+graph.h
+/home/lucas/Documentos/Github/CMake/Graph-Library/graph.h
+

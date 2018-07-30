@@ -13,5 +13,7 @@ int main ()
 
     free_graph(g);
 
+    //createCylinder();
+
     return 0;
 }
