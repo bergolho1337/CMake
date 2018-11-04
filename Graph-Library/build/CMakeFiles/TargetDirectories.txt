@@ -1,3 +1,0 @@
-/home/lucas/Documentos/Github/CMake/Graph-Library/build/CMakeFiles/rebuild_cache.dir
-/home/lucas/Documentos/Github/CMake/Graph-Library/build/CMakeFiles/Graph.dir
-/home/lucas/Documentos/Github/CMake/Graph-Library/build/CMakeFiles/edit_cache.dir

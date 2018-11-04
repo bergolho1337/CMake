@@ -1,0 +1,3 @@
+/home/bergolho/Documentos/Github/CMake/Graph-Library/C/build/CMakeFiles/rebuild_cache.dir
+/home/bergolho/Documentos/Github/CMake/Graph-Library/C/build/CMakeFiles/Graph.dir
+/home/bergolho/Documentos/Github/CMake/Graph-Library/C/build/CMakeFiles/edit_cache.dir
