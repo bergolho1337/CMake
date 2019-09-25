@@ -1,0 +1,33 @@
+cmake_minimum_required(VERSION 3.0.1)
+project(IniParser)
+
+set( CMAKE_EXPORT_COMPILE_COMMANDS ON )
+
+IF (CMAKE_VERSION VERSION_LESS "3.1")
+    IF (CMAKE_C_COMPILER_ID STREQUAL "GNU")
+        SET(CMAKE_C_FLAGS "-std=gnu99 ${CMAKE_C_FLAGS}")
+    ENDIF(CMAKE_C_COMPILER_ID STREQUAL "GNU")
+ELSE()
+    SET(CMAKE_C_STANDARD 99)
+ENDIF()
+
+SET( CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin )
+SET( CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/shared_libs )
+
+SET (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fno-strict-aliasing -Wall -Wno-unused-function -Wno-char-subscripts")
+
+IF(CMAKE_BUILD_TYPE MATCHES "Debug")
+    SET (CMAKE_C_FLAGS "${CMAKE_C_FLAGS}  -DDEBUG_INFO" )
+ENDIF(CMAKE_BUILD_TYPE MATCHES "Debug")
+
+ADD_SUBDIRECTORY(src/config_helpers)
+ADD_SUBDIRECTORY(src/utils)
+ADD_SUBDIRECTORY(src/ini_parser)
+ADD_SUBDIRECTORY(src/string)
+ADD_SUBDIRECTORY(src/config)
+
+ADD_EXECUTABLE(IniParser src/main.c)
+ADD_DEPENDENCIES(IniParser utils ini_parser string config ${OPT_DEPS})
+
+TARGET_LINK_LIBRARIES(IniParser utils ini_parser string config ${OPT_DEPS} dl m)
+
